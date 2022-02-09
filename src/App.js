@@ -1,15 +1,12 @@
-import React from "react"
-//import ReactDOM from "react-dom"
-import Home from "./pages/Home";
+import React from "react";
+import Routes from "./Routes";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Home />
-    </>
-  )
-}
-export default App;
-// const rootElement = document.getElementById("root")
-// ReactDOM.render(<App />, rootElement)
+    <div>
+      <Routes />
+    </div>
+  );
+};
 
+export default App;
