@@ -6,8 +6,8 @@ const Amador = () => {
     const navigate = useNavigate();
     return(
         <div>
-            <img src={img1} className="Amador" alt="" />
             <button onClick={() => {navigate("/");}} className="Home">Home</button>
+            <img src={img1} height="1050px" alt="" />
         </div>
     )
 }

@@ -2,6 +2,15 @@
   margin: 5px;
   font-size: 15px;
   line-height: 30px;
+  list-style-type: square;
+}
+
+.Home {
+}
+
+.button {
+  font-size: 25px;
+  margin: 5px;
 }
 
 .Title {

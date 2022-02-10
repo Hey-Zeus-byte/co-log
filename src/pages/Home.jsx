@@ -8,13 +8,15 @@ const Home = () => {
     return(
         <div>
             <h1 className='Title'>GSCF Change Order Logs</h1>
+            <h2 className='Title'>Please select a job:</h2>
                 <ul>
-                    <button onClick={() => {navigate("/amazon-dublin");}} className='List'>Amazon - Dublin</button>
-                    <button onClick={() => {navigate("/amador");}} className='List'>Amador</button>
-                    <button onClick={() => {navigate("/burlingame");}} className='List'>Burlingame</button>
-                    <button onClick={() => {navigate("/amazon-dublin");}} className='List'>Amazon - Dublin</button>
-                    <button onClick={() => {navigate("/amazon-dublin");}} className='List'>Amazon - Dublin</button>
-                    <button onClick={() => {navigate("/amazon-dublin");}} className='List'>Amazon - Dublin</button>
+                    <li className='List'><button onClick={() => {navigate("/template");}} className='button'>Template</button></li>
+                    <li className='List'><button onClick={() => {navigate("/amazon-dublin");}} className='button'>Amazon - Dublin</button></li>
+                    <li className='List'><button onClick={() => {navigate("/amador");}} className='button'>Amador</button></li>
+                    <li className='List'><button onClick={() => {navigate("/burlingame");}} className='button'>Burlingame</button></li>
+                    <li className='List'><button onClick={() => {navigate("/citysports-hayward");}} className='button'>City Sport's Hayward</button></li>
+                    <li className='List'><button onClick={() => {navigate("/eastpodium");}} className='button'>East Podium</button></li>
+                    <li className='List'><button onClick={() => {navigate("/foothill");}} className='button'>Foothill HS</button></li>
                 </ul>
             </div>
     )
