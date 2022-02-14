@@ -4,13 +4,13 @@ import AmazonDublin from "./pages/AmazonDublin";
 import Burlingame from "./pages/Burlingame";
 import CSportsHay from "./pages/CSportsHay";
 import Home from "./pages/Home";
-import Template from "./pages/Template";
+// import Template from "./pages/Template";
 
 const Routes = () => {
   return (
     <BrowserRoutes>
       <Route path="/" element={<Home />} />
-      <Route path="/template" element={<Template />} />
+      {/* <Route path="/template" element={<Template />} /> */}
       <Route path="/amazon-dublin" element={<AmazonDublin />} />
       <Route path="/amador" element={<Amador />} />
       <Route path="/burlingame" element={<Burlingame />} />
